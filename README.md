@@ -2,8 +2,7 @@
 
 Python addon for dirsearch
 ```bash
-Usage: robotscan.py [-h] [-u URL] [-w WORDLIST] [-e EXTENSIONS]
-                    [-x EXCLUDESTATUS]
+Usage: robotscan.py [-h] [-u URL] [-w WORDLIST] [-e EXTENSIONS] [-x EXCLUDESTATUS]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -13,6 +12,5 @@ optional arguments:
   -e EXTENSIONS, --extensions EXTENSIONS
                         Extension list separated by comma (Example: php,asp)
   -x EXCLUDESTATUS, --excludestatus EXCLUDESTATUS
-                        Exclude status code, separated by comma (example:
-                        301,500)
+                        Exclude status code, separated by comma (example: 301,500)
 ```
